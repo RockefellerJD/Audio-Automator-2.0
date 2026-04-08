@@ -40,12 +40,12 @@ Hệ thống cần chạy song song hai cửa sổ Terminal:
 
 Bước 1: Khởi động Backend
 Bash
-python server.py
+uvicorn backend:app --reload --port 8000
 Backend sẽ chạy tại cổng http://localhost:8000
 
 Bước 2: Khởi động Dashboard
 Bash
-streamlit run app.py
+streamlit run frontend.py
 Giao diện sẽ tự động mở trên trình duyệt tại http://localhost:8501
 
 📖 Hướng dẫn sử dụng
