@@ -6,7 +6,7 @@ import time
 # FIX TRỊ TẬN GỐC Error MAC: Dùng thẳng IP 127.0.0.1 thay vì localhost
 API_URL = "http://127.0.0.1:8000"
 
-st.set_page_config(page_title="Tatinta Audio Automator 2.0", layout="wide")
+st.set_page_config(page_title="Audio Automator 2.0", layout="wide")
 st.title("🎧 Dashboard")
 
 token_input = st.text_input("🔑 Import Bearer Token (from CMS):", type="password")

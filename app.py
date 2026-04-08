@@ -5,7 +5,7 @@ import random
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 # --- 1. CẤU HÌNH TRANG ---
-st.set_page_config(page_title="Audio Automator", layout="wide")
+st.set_page_config(page_title="Audio Automator 2.0", layout="wide")
 
 # --- 2. KHỞI TẠO DỮ LIỆU MẪU (SESSION STATE) ---
 if 'tasks' not in st.session_state:

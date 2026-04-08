@@ -37,7 +37,9 @@ def xu_ly_tu_ngoai_lai(text):
         r'\bZeus\b': 'Dớt',
         r'\bAthena\b': 'A-thê-na',
         r'\bHeracles\b': 'Hê-ra-clét',
-        r'\bHercules\b': 'Héc-quyn'
+        r'\bHercules\b': 'Héc-quyn',
+        r'\bThe\b': 'Đờ',
+        r'\bU.S\b': 'Diu et'
     }
     for pattern, pronunciation in g2p_dict.items():
         text = re.sub(pattern, pronunciation, text, flags=re.IGNORECASE)
