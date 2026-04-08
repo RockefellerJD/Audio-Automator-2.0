@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Project Files
+*.db
+*.mp3
+*_mixed.mp3
+.DS_Store
+
+# Secret
+.env
